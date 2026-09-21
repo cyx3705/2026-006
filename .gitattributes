@@ -1,0 +1,40 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+Logo.png -text
+b-EPLAN/N0000.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP -text
+b-Module-2D/工程图.dwg -text
+b-Module-SE/D25-20始节.par -text
+b-Module-SE/D25-25中节.par -text
+b-Module-SE/D25-25末节.par -text
+b-Module-SE/D25-30始节.par -text
+b-Module-SE/中指.asm -text
+b-Module-SE/中指.cfg -text
+b-Module-SE/双面铆钉4X4.par -text
+b-Module-SE/大拇指.asm -text
+b-Module-SE/大拇指.cfg -text
+b-Module-SE/小拇指.asm -text
+b-Module-SE/小拇指.cfg -text
+b-Module-SE/德国屁垫.par -text
+b-Module-SE/手套.asm -text
+b-Module-SE/手套.cfg -text
+b-Module-SE/手背零件.par -text
+b-Module-SE/无名指.asm -text
+b-Module-SE/无名指.cfg -text
+b-Module-SE/绑带.par -text
+b-Module-SE/舵机.par -text
+b-Module-SE/食指.asm -text
+b-Module-SE/食指.cfg -text
+b-Module-SW/0-装配体.SLDASM -text
+b-Module-SW/零件.SLDPRT -text
+b-Office/伟立杯手套项目报告.pptx -text
+"b-Office/机器人灵巧手力反馈手套   .docx" -text
+b-Picture/仰视图.png -text
+b-Picture/俯视图.png -text
+b-Picture/内部缓震.png -text
+b-Picture/效果图.png -text
+b-Picture/线位与舵机.png -text
+b-Picture/绑带安装以及舵机安装.png -text
+b-Picture/骨架＋皮套.png -text
